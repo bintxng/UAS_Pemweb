@@ -7,8 +7,8 @@ NIM    : 121140171
 Projek ini adalah sebuah web formulir untuk penbukaan rekening Bank RC (bank dummy). Proyek ini dibuat dengan pendekatan php dan menampilkan data pengguna di database.
 
 ## Bahasa
-* ### Frontend  : HTML, CSS, JavaScript
-* ### Backend   : PHP
-* ### Database  : MySQL
+* **Frontend**  : HTML, CSS, JavaScript
+* **Backend**   : PHP
+* **Database**  : MySQL
 
 
