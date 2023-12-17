@@ -1,0 +1,80 @@
+/* Reset some default styles */
+@font-face {
+    font-family: 'Montserrat';
+    src: url(asset/fonts/Montserrat-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat Semi-Bold';
+    src: url(asset/fonts/Montserrat-SemiBold.ttf) format('truetype');
+}
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+h1 {
+    font-family: 'Montserrat';
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 75px;
+    font-weight: bold;
+    color:black;
+}
+
+p {
+    font-family: 'Montserrat Semi-Bold';
+    font-size: 15px;
+    color:black;
+    text-align: center;
+}
+
+.notRegistered {
+  margin-top: 20px;
+}
+
+.logo img {
+    max-width: 400%;
+    max-height: 250px;
+}
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid;
+  }
+  
+  nav a {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 20px auto;
+  }
+  
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Optional: Add more styles as needed */

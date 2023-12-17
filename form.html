@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank RC</title>
+    <link rel="stylesheet" href="styles-form.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="errorMessages" style="display: none;"></div>
+    <div class="header.container">
+        <header>
+            <div class="logo">
+                <img src="asset/BRCLogo.png" alt="BRC Logo">
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="form.html">Form</a>
+            </nav>
+    </header> </div>
+    <div class="forms">  
+    <form id="formulirPendaftaran" action="form-handler.php" method="post" onsubmit="return validateForm()">
+        <label for="full_name">Nama Lengkap:</label>
+        <input type="text" id="full_name" name="full_name">
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option value="default">Pilih jenis kelamin</option>
+          <option value="male">Laki-Laki</option>
+          <option value="female">Perempuan</option>
+        </select>
+      
+        <label for="birthdate">Tanggal Lahir:</label>
+        <input type="date" id="birthdate" name="birthdate">
+      
+        <label for="ktp_address">Alamat KTP:</label>
+        <textarea id="ktp_address" name="ktp_address" rows="4" cols="50"></textarea>
+
+        <label for="dom_address">Alamat Domisili:</label>
+        <textarea id="dom_address" name="dom_address" rows="4" cols="50"></textarea>
+      
+        <label for="type">Tipe Rekening:</label>
+        <select id="type" name="type">
+          <option value="default">Pilih tipe rekening</option>
+          <option value="tabungan">Rekening Tabungan</option>
+          <option value="giro">Rekening Giro</option>
+        </select>
+      
+        <label for="terms">
+          <input type="checkbox" id="terms" name="terms">
+          Saya setuju dengan syarat dan ketentuan.
+        </label>
+
+        <input type="submit" value="Submit">
+        <div id="errorPopup" class="error-popup" style="display: none;">
+          <p id="errorMessage"></p>
+        </div> 
+        <div id="successPopup" class="success-popup" style="display: none;">
+          <p>Data berhasil disimpan ke dalam database.</p>
+        </div>
+        </form>     
+    </div
+      
+      

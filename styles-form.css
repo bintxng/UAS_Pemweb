@@ -1,0 +1,100 @@
+/* styles-form.css */
+@font-face {
+    font-family: 'Montserrat';
+    src: url(asset/fonts/Montserrat-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat Semi-Bold';
+    src: url(asset/fonts/Montserrat-SemiBold.ttf) format('truetype');
+}
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+.logo img {
+    max-width: 400%;
+    max-height: 250px;
+}
+
+
+  
+#formulirPendaftaran {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.forms {
+    font-family: 'Montserrat';
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+nav a {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    padding: 8px;
+}
+
+.error-popup {
+    background-color: #ffcccc;
+    border: 1px solid #ff0000;
+    padding: 10px;
+    margin: 10px 0;
+    color: #ff0000;
+}
+
+.success-popup {
+    background-color: #ccffcc;
+    border: 1px solid #00ff00;
+    padding: 10px;
+    margin: 10px 0;
+    color: #00ff00;
+}
+
